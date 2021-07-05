@@ -1,0 +1,6 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.promo__slider{
+    max-width: 870px;
+}
