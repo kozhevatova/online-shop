@@ -25,4 +25,10 @@
   line-height: 1.15;
   color: #48494d;
   text-decoration: none;
+  transition: opacity 0.5s linear;
+}
+
+.header-menu__link:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
