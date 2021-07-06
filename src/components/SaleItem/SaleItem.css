@@ -1,0 +1,118 @@
+.saleItem{
+    display: flex;
+    flex-direction: column;
+    min-width: 270px;
+    max-height: 397px;
+}
+.saleItem__container{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    border: 1px solid #c4c4c4;
+}
+.saleItem__info{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 298px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.saleItem__image{
+    margin: 0;
+    padding: 0;
+    max-height: 187px;
+    max-width: 150px;
+    margin-top: 53px;
+}
+.saleItem__saleBanner{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.saleItem__price{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    right: 19px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 31px;
+    color:#FF7931;
+
+
+}
+.saleItem__price_old{
+    margin: 0;
+    padding: 0;
+}
+.saleItme__description{
+    margin: 15px 0 16px;
+    padding: 0;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 26px;
+}
+.saleItem__timerContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0F4;
+}
+.saleItem__timer{
+    position: relative;
+    margin: 0 0 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+}
+.saleItem__timerImage{
+    margin-right: 15px;
+    min-height: 28px;
+    max-width: 28px;
+    color: #c4c4c4
+}
+.saleItem__timerDescription{
+    margin: 15px 0 10px;
+    padding: 0;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #48494D;
+}
+.saleItem__timerCount{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #48494D;
+    position: relative;
+}
+.saleItem__timerCount_title{
+    display: inline;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 11px;
+    word-spacing: 8px;
+    color: #C4C4C4;
+    position: absolute;
+    top:18px;
+    left:100px;
+}
