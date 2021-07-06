@@ -23,6 +23,12 @@
 
 .account-menu__link {
   text-decoration: none;
+  transition: opacity 0.5s linear;
+}
+
+.account-menu__link:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 .account-menu__img {
