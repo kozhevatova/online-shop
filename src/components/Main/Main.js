@@ -1,11 +1,11 @@
 import React from 'react';
 import Categories from '../Categories/Categories';
-import PopularProducts from '../PopularProducts/PopularProducts';
+import Products from '../Products/Products';
 import Promo from '../Promo/Promo';
 import SearchBar from '../SearchBar/SearchBar';
 import AdBanner from '../AdBanner/AdBanner';
+import { recommendedProducts, popularProducts } from "../../data/data";
 import './Main.css';
-import RecommendedProducts from '../RecommendedProducts/RecommendedProducts';
 
 const Main = () => {
     return(
@@ -13,9 +13,9 @@ const Main = () => {
             <Promo/>
             <SearchBar/>
             <Categories/>
-            <PopularProducts/>
+            <Products products={popularProducts} title="Популярные товары"/>
             <AdBanner/>
-            <RecommendedProducts/>
+            <Products products={recommendedProducts} title="С этим товаром покупают"/>
         </main>
     );
 }
