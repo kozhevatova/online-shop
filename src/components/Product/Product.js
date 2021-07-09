@@ -8,7 +8,7 @@ import "./Product.css";
 
 const Product = ({ product }) => {
   return (
-    <li className="product">
+    <div className="product">
       <NavLink to="#" className="product__link">
         {product.isOnSale && (
           <img src={sale} alt="Распродажа." className="product__sale" />
@@ -52,7 +52,7 @@ const Product = ({ product }) => {
           <button className="product__cart" type="button"></button>
         )}
       </NavLink>
-    </li>
+    </div>
   );
 };
 
