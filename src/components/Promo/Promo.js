@@ -5,7 +5,7 @@ import ad from '../../images/image.jpg';
 import SaleItem from '../SaleItem/SaleItem';
 
 const Promo = () => {
-  let settings = {
+  const settings = {
     dots: true,
     infinite: true,
     speed: 500,
