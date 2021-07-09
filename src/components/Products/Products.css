@@ -14,7 +14,7 @@
   line-height: 1.15;
   color: #48494d;
   padding: 0;
-  margin: 0 0 26px 0;
+  margin: 0 0 26px 15px;
 }
 
 .products__list {
@@ -22,8 +22,8 @@
   flex-direction: row;
   list-style: none; */
   padding: 0;
-  margin: 25px 0 80px;
-  max-width: 1170px;
+  margin: 25px 0 80px 15px;
+  max-width: 1185px;
   min-height: 405px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .products__list > button.slick-next{
-  right: -27px;
+  right: -25px;
 }
 
 .products__list > button.slick-next::before, button.slick-prev::before {

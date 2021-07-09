@@ -99,7 +99,7 @@
   margin: 0 0 0 20px;
 }
 
-.product__tire-type_none {
+.slick-slide .product__tire-type_none{
   display: none;
 }
 
